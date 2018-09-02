@@ -1,0 +1,73 @@
+html,body{
+    height:100% ;
+}
+body{
+    background: url("assets/car-classic-headlights-103305.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+img {
+    margin-top: 50px;
+}
+h1{
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Lobster Two', cursive;
+    font-size: 60px;
+}
+h1:hover{
+    font-family: 'Lobster Two', cursive;
+    color: #1a3968;
+    text-shadow: 2px 2px 4px white;
+
+
+}
+ul {
+    list-style-type:none;
+    padding: 10px;
+    overflow: hidden;
+    background-color:#2a548a8a;
+}
+li{
+    display: inline;
+    padding:0px 10px ;
+    font-size: large;
+}
+a{
+    
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+a:hover{
+    font-size: x-large;
+    color: #1a3968;
+    text-shadow: 2px 2px 4px white;
+}
+article{
+    max-width:500px ;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Lobster Two', cursive;
+    font-size: x-large;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+button{
+    
+    padding:10px 20px;
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+    color: rgb(175, 5, 5);
+}
