@@ -2,17 +2,19 @@ html,body{
     height:100% ;
 }
 body{
-    background: url("assets/car-classic-headlights-103305.jpg");
+    margin: 0;
+    background: url("../assets/car-classic-headlights-103305.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 header{
-    margin: 20px;
+    margin: 20px 0;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+   
 }
 img {
     margin-top: 50px;
@@ -26,13 +28,10 @@ h1:hover{
     font-family: 'Lobster Two', cursive;
     color: #1a3968;
     text-shadow: 2px 2px 4px white;
-
-
+    transition: all 0.3s ease-in-out 0s;
 }
 ul {
-    list-style-type:none;
     padding: 10px;
-    overflow: hidden;
     background-color:#2a548a8a;
 }
 li{
@@ -41,12 +40,12 @@ li{
     font-size: large;
 }
 a{
-    
     color: aliceblue;
     text-align: center;
     padding: 14px 16px;
     margin: 0 10px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
 }
 a:hover{
     font-size: x-large;
@@ -61,13 +60,16 @@ article{
     font-size: x-large;
     color: white;
     text-shadow: 2px 2px 4px black;
-
 }
-
-button{
-    
+button{   
     padding:10px 20px;
     font-family: 'Lobster Two', cursive;
     font-size: large;
     color: rgb(175, 5, 5);
+}
+footer{
+    color: white;
+    background-color:#2a548a8a;
+    text-align: center;
+    padding: 10px;
 }
