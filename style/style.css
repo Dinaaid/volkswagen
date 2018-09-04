@@ -39,6 +39,9 @@ li{
     padding:0px 10px ;
     font-size: large;
 }
+h2:hover{
+ color:#1a3968 ;
+}
 a{
     color: aliceblue;
     text-align: center;
